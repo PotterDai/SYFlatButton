@@ -16,7 +16,7 @@
 		A138E43222725E98009487C3 /* SYFlatButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A138E42B22725E98009487C3 /* SYFlatButton.framework */; };
 		A138E43322725E98009487C3 /* SYFlatButton.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A138E42B22725E98009487C3 /* SYFlatButton.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A138E43822725EEF009487C3 /* SYFlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D574E341DDF068900C284E3 /* SYFlatButton.m */; };
-		A138E43A22725F4C009487C3 /* SYFlatButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A138E43922725F4C009487C3 /* SYFlatButton.h */; };
+		A138E43A22725F4C009487C3 /* SYFlatButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A138E43922725F4C009487C3 /* SYFlatButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */

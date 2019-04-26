@@ -339,6 +339,18 @@
     [self setupTitleLayer];
 }
 
+- (void)setResizeImage:(BOOL)resizeImage {
+    _resizeImage = resizeImage;
+    [self setupImageLayer];
+    [self setupTitleLayer];
+}
+
+- (void)setImageInset:(CGSize)imageInset {
+    _imageInset = imageInset;
+    [self setupImageLayer];
+    [self setupTitleLayer];
+}
+
 - (void)setMomentary:(BOOL)momentary {
     _momentary = momentary;
     [self animateColorForCurrentState];

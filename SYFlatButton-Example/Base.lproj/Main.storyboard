@@ -1158,7 +1158,10 @@
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="resizeImage" value="YES"/>
                                             <userDefinedRuntimeAttribute type="size" keyPath="imageInset">
-                                                <size key="value" width="5" height="5"/>
+                                                <size key="value" width="25" height="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="onAnimateDuration2">
+                                                <real key="value" value="1000"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>

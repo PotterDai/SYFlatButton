@@ -20,10 +20,11 @@
     SYFlatButton *button = [[SYFlatButton alloc] initWithFrame:CGRectMake(20.0, 20.0, 60.0, 30.0)];
     button.title = @"Code";
     button.momentary = YES;
+    button.resizeImage = YES;
     button.cornerRadius = 4.0;
     button.backgroundNormalColor = [NSColor blueColor];
     button.backgroundHighlightColor = [NSColor redColor];
-//    [self.view addSubview:button];
+    [self.view addSubview:button];
 }
 
 - (IBAction)loginAction:(SYFlatButton *)sender {

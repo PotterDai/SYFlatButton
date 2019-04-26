@@ -78,9 +78,16 @@
         [self.imageLayer removeFromSuperlayer];
         return;
     }
-    
+
     CGSize buttonSize = self.frame.size;
     CGSize imageSize = self.image.size;
+    if (self.resizeImage) {
+        CGSize refSize = CGSizeMake(buttonSize.width - self.imageInset.width * 2, buttonSize.height - self.imageInset.height * 2);
+        CGFloat widthFactor = refSize.width / imageSize.width;
+        CGFloat heightFactor = refSize.height / imageSize.height;
+        CGFloat factor = MIN(widthFactor, heightFactor);
+        imageSize = CGSizeMake(imageSize.width * factor, imageSize.height * factor);
+    }
     CGSize titleSize = [self.title sizeWithAttributes:@{NSFontAttributeName: self.font}];
     CGFloat x = 0.0; // Image's origin x
     CGFloat y = 0.0; // Image's origin y

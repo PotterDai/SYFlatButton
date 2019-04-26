@@ -19,6 +19,8 @@ IB_DESIGNABLE
 @property (nonatomic, assign) IBInspectable CGFloat cornerRadius;               // Default:0.0  - Button's border corner radius
 @property (nonatomic, assign) IBInspectable CGFloat borderWidth;                // Default:0.0  - Button's border width
 @property (nonatomic, assign) IBInspectable CGFloat spacing;                    // Default:0.0  - Button's spacint between image and title
+@property (nonatomic, assign) IBInspectable BOOL resizeImage;                    // Default:NO  - Button's spacint between image and title
+@property (nonatomic, assign) IBInspectable CGSize imageInset;                   // Default:0.0, 0.0  - Button's spacint between image and title
 @property (nonatomic, strong) IBInspectable NSColor *borderNormalColor;         // Default:nil  - Button's border color when state off
 @property (nonatomic, strong) IBInspectable NSColor *borderHighlightColor;      // Default:nil  - Button's border color when state on
 @property (nonatomic, strong) IBInspectable NSColor *borderDisabledColor;         // Default:nil  - Button's border color when disabled
